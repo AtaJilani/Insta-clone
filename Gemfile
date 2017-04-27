@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'bootstrap-sass', '~> 3.3.7' 
 gem 'simple_form', '~> 3.4.0'
 gem 'paperclip', '~> 5.0.0' #at the writing of this post
 
