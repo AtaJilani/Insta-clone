@@ -8,7 +8,8 @@ end
 gem 'bootstrap-sass', '~> 3.3.7' 
 gem 'simple_form', '~> 3.4.0'
 gem 'paperclip', '~> 5.0.0' #at the writing of this post
-
+gem 'devise'  
+gem 'bcrypt', platforms: :ruby
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
